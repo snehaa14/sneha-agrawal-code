@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+#include<conio.h>
+ int main()
+ {
+ 	int a[5],i;
+ 	cout<<" enter elements "<<endl;
+ 	for(i=0;i<5;i++)
+ 	{
+ 		cin>>a[i];
+ 		
+	 }
+	 cout<<endl<<" you entered : "<<endl;
+	 for(i=0;i<5;i++)
+	 cout<<endl<<*(a+i);
+	 return 0;
+ }
